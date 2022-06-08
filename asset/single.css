@@ -364,3 +364,14 @@ section.contact > .row > .col-6:last-child {
     color: transparent;
     -webkit-text-stroke: 2px #fff;
 }
+
+
+@media (max-width: 768px ) {
+    .side {
+        display: none;
+    }
+    .primary {
+        width: 100%;
+        margin: 0;
+    }
+}
