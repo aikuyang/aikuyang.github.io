@@ -377,4 +377,16 @@ section.contact > .row > .col-6:last-child {
         width: 100%;
         margin: 0;
     }
+
+    section.kv > .row {
+        display: grid;
+    }
+    section.kv > .row > .col-8 {
+        width: 100%;
+        order: 1;
+    }
+    section.kv > .row > .col-4 {
+        width: 100%;
+        order: 2;
+    }
 }
