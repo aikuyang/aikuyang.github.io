@@ -379,6 +379,7 @@ section.contact > .row > .col-6:last-child {
     }
 
     .primary > section {
+        height: auto!important;
         display: block!important;
     }
 
