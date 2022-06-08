@@ -393,20 +393,25 @@ section.contact > .row > .col-6:last-child {
     }
     section.kv > .row > .col-4 {
         width: 100%;
-        order: 2;
+        padding: 40px 40px;
     }
 
 
     section.info > .row {
         display: block;
+        padding: 0px 40px 40px;
     }
     section.info > .row > .col-6 {
         width: 100%!important;
     }
     section.info > .row > .col-6 > .row {
-        padding: 80px 0px;
+        padding: 40px 0px 0px!important;
     }
 
+
+    section.project > .row {
+        padding: 40px 40px;
+    } 
     .filterItem {
         width: 100%;
         float: none;
@@ -414,16 +419,20 @@ section.contact > .row > .col-6:last-child {
         margin: 0 auto 20px;
     }
     .filterImage {
-        height: 155px!important;
+        height: 200px!important;
     }
 
 
     section.contact > .row {
         display: block;
+        padding: 40px 40px;
     }
     section.contact > .row > .col-6 {
         padding: 0px!important;
         width: 100%!important;
     }
 
+    .contactForm {
+        padding: 0px;
+    }
 }
