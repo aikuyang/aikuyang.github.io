@@ -383,8 +383,9 @@ section.contact > .row > .col-6:last-child {
         display: block!important;
     }
 
+
     section.kv > .row {
-        display: grid;
+        display: block;
     }
     section.kv > .row > .col-8 {
         width: 100%;
@@ -393,5 +394,13 @@ section.contact > .row > .col-6:last-child {
     section.kv > .row > .col-4 {
         width: 100%;
         order: 2;
+    }
+
+
+    section.info > .row {
+        display: block;
+    }
+    section.info > .row > .col-6 {
+        width: 100%;
     }
 }
