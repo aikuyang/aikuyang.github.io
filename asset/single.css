@@ -395,7 +395,7 @@ section.contact > .row > .col-6:last-child {
         padding: 40px 40px;
     }
     section.kv > .row > .col-8 > .row {
-        height: 50vh;
+        height: 35vh!important;
     }
 
 
