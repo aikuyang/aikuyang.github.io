@@ -397,6 +397,9 @@ section.contact > .row > .col-6:last-child {
     section.kv > .row > .col-8 > .row {
         height: 35vh!important;
     }
+    section.kv > .row > .col-4 > .row > ul {
+        margin-top: 40px!important;
+    }
 
 
     section.info > .row {
