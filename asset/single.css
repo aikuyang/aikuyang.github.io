@@ -367,6 +367,9 @@ section.contact > .row > .col-6:last-child {
 
 
 @media screen and ( max-width: 768px ) {
+    .main {
+        display: block;
+    }
     .side {
         display: none;
     }
