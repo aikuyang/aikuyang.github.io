@@ -378,6 +378,10 @@ section.contact > .row > .col-6:last-child {
         margin: 0;
     }
 
+    .primary > section {
+        display: block!important;
+    }
+
     section.kv > .row {
         display: grid;
     }
