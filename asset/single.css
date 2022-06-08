@@ -388,12 +388,14 @@ section.contact > .row > .col-6:last-child {
         display: block;
     }
     section.kv > .row > .col-8 {
-        width: 100%;
-        order: 1;
+        width: 100%; 
     }
     section.kv > .row > .col-4 {
         width: 100%;
         padding: 40px 40px;
+    }
+    section.kv > .row > .col-8 > .row {
+        height: 50vh;
     }
 
 
