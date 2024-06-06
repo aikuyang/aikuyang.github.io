@@ -44950,7 +44950,7 @@ aC(){this.aQ()
 var s=new A.a8H()
 s.a=new A.agi(this)
 this.x=s},
-L(a){var s,r,q,p,o=this,n=null,m=A.ar3(n,n,n,n,n,n,n,n,A.c2("ISBN Scanner",n,n,n,n,n,n)),l=A.b([],t.p)
+L(a){var s,r,q,p,o=this,n=null,m=A.ar3(n,n,n,n,n,n,n,n,A.c2("ISBN \u6383\u63cf\u5668",n,n,n,n,n,n)),l=A.b([],t.p)
 if(o.w||o.d==null){s=t.w
 r=A.bq(a,n,s).w
 s=A.bq(a,n,s).w
@@ -44959,12 +44959,12 @@ q===$&&A.a()
 p=new A.yN(n)
 p.c=q
 l.push(A.ja(A.dn(n,p,B.r,n,n,n,n,r.a.b,n,n,n,n,s.a.a),1))}s=o.d
-s=s==null?"Please scan a barcode":"Scanned ISBN: "+s
+s=s==null?"\u8acb\u6383\u63cf\u689d\u78bc":"\u6383\u63cf\u5230\u7684 ISBN: "+s
 l.push(new A.cA(B.mu,A.c2(s,n,n,n,A.jB(n,n,n,n,n,n,n,n,n,n,n,20,n,n,n,n,n,!0,n,n,n,n,n,n,n,n),n,n),n))
 s=o.d
 if(s!=null)l.push(new A.qY(o.vI(s),new A.agf(o),n,t.CB))
 l.push(A.dU(n,20,n))
-l.push(A.anM(A.c2("Scan Barcode",n,n,n,n,n,n),new A.agg(o)))
+l.push(A.anM(A.c2("\u6383\u63cf\u689d\u78bc",n,n,n,n,n,n),new A.agg(o)))
 return A.au3(m,n,A.hk(l,B.aU,B.aa,B.aI))},
 vI(a){return this.a1W(a)},
 a1W(a){var s=0,r=A.X(t.nA),q,p,o
@@ -44975,31 +44975,31 @@ case 3:o=c
 if(o.b===200){p=J.aAF(B.dC.fg(0,A.aKW(A.aIL(o.e).c.a.h(0,"charset")).fg(0,o.w)),new A.agc(a),new A.agd())
 q=p!=null?p:null
 s=1
-break}else throw A.c(A.cT("Failed to load books"))
+break}else throw A.c(A.cT("\u7121\u6cd5\u8f09\u5165\u66f8\u7c4d\u8cc7\u6599"))
 case 1:return A.V(q,r)}})
 return A.W($async$vI,r)},
 a1w(){var s,r,q,p,o,n,m,l,k=this,j=null,i="yyyy/MM/dd",h=k.e
 h.toString
-h=A.c2("Title: "+A.i(J.be(h,"title")),j,j,j,j,j,j)
+h=A.c2("\u66f8\u540d: "+A.i(J.be(h,"title")),j,j,j,j,j,j)
 s=k.e
 s.toString
-s=A.c2("Author: "+A.i(J.be(s,"author")),j,j,j,j,j,j)
+s=A.c2("\u4f5c\u8005: "+A.i(J.be(s,"author")),j,j,j,j,j,j)
 r=k.e
 r.toString
-r=A.c2("Translator: "+A.i(J.be(r,"translator")),j,j,j,j,j,j)
+r=A.c2("\u8b6f\u8005: "+A.i(J.be(r,"translator")),j,j,j,j,j,j)
 q=k.e
 q.toString
-q=A.c2("Publisher: "+A.i(J.be(q,"publisher")),j,j,j,j,j,j)
+q=A.c2("\u51fa\u7248\u793e: "+A.i(J.be(q,"publisher")),j,j,j,j,j,j)
 p=k.e
 p.toString
-p=A.c2("Publication Date: "+A.i(J.be(p,"publication_date")),j,j,j,j,j,j)
+p=A.c2("\u51fa\u7248\u65e5\u671f: "+A.i(J.be(p,"publication_date")),j,j,j,j,j,j)
 o=k.e
 o.toString
-o=A.c2("Purchase Link: "+A.i(J.be(o,"purchase_link")),j,j,j,j,j,j)
+o=A.c2("\u8cfc\u8cb7\u9023\u7d50: "+A.i(J.be(o,"purchase_link")),j,j,j,j,j,j)
 n=A.dU(j,20,j)
-m=A.aoI(!1,k.f,A.a3B(j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,"Name",j,j,j,j,j,j,j,j,j,j,j,j,j),j,j)
+m=A.aoI(!1,k.f,A.a3B(j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,"\u59d3\u540d",j,j,j,j,j,j,j,j,j,j,j,j,j),j,j)
 l=A.dU(j,20,j)
-return new A.cA(B.mu,A.hk(A.b([h,s,r,q,p,o,n,m,l,A.anM(A.c2(k.r==null?"Select Date Range":A.arz(i).tK(k.r.a)+" - "+A.arz(i).tK(k.r.b),j,j,j,j,j,j),new A.aga(k)),A.dU(j,20,j),A.anM(A.c2("Complete Borrowing",j,j,j,j,j,j),new A.agb(k))],t.p),B.cj,B.aa,B.aI),j)}}
+return new A.cA(B.mu,A.hk(A.b([h,s,r,q,p,o,n,m,l,A.anM(A.c2(k.r==null?"\u9078\u64c7\u65e5\u671f\u7bc4\u570d":A.arz(i).tK(k.r.a)+" - "+A.arz(i).tK(k.r.b),j,j,j,j,j,j),new A.aga(k)),A.dU(j,20,j),A.anM(A.c2("\u5b8c\u6210\u501f\u66f8",j,j,j,j,j,j),new A.agb(k))],t.p),B.cj,B.aa,B.aI),j)}}
 A.agi.prototype={
 $1(a){var s=this.a
 s.ag(new A.agh(s,a))},
@@ -45013,12 +45013,12 @@ A.agf.prototype={
 $2(a,b){var s,r,q=null
 if(b.a===B.m8)return new A.w1(q,q,q,q,q,q,q)
 else{s=b.c
-if(s!=null)return A.c2("Error: "+A.i(s),q,q,q,q,q,q)
+if(s!=null)return A.c2("\u932f\u8aa4: "+A.i(s),q,q,q,q,q,q)
 else{s=b.b
 r=this.a
 if(s!=null){r.e=s
 s=r.a1w()
-return s}else return A.c2("No data found for ISBN: "+A.i(r.d),q,q,q,q,q,q)}}},
+return s}else return A.c2("\u627e\u4e0d\u5230 ISBN: "+A.i(r.d)+" \u7684\u8cc7\u6599",q,q,q,q,q,q)}}},
 $S:340}
 A.agg.prototype={
 $0(){var s=this.a
@@ -45030,7 +45030,7 @@ s.w=!0
 s.d=null},
 $S:0}
 A.agc.prototype={
-$1(a){return J.d(J.be(a,"isbn"),this.a)},
+$1(a){return J.d(J.be(a,"ISBN"),this.a)},
 $S:68}
 A.agd.prototype={
 $0(){return null},
@@ -45057,10 +45057,10 @@ $0(){this.a.r=this.b},
 $S:0}
 A.agb.prototype={
 $0(){var s=null,r=this.a,q=r.f.a.a,p=r.r
-if(q.length!==0&&p!=null)A.nu("Borrowing completed for "+q+" from "+p.a.k(0)+" to "+p.b.k(0))
+if(q.length!==0&&p!=null)A.nu("\u501f\u66f8\u5b8c\u6210: "+q+" \u5f9e "+p.a.k(0)+" \u5230 "+p.b.k(0))
 else{r=r.c.af(t.Pu)
 r.toString
-r.f.Xe(A.aus(s,s,s,s,s,B.an,s,A.c2("Please fill in all fields",s,s,s,s,s,s),s,B.D_,s,s,s,s,s,s,s,s,s))}},
+r.f.Xe(A.aus(s,s,s,s,s,B.an,s,A.c2("\u8acb\u586b\u5beb\u6240\u6709\u6b04\u4f4d",s,s,s,s,s,s),s,B.D_,s,s,s,s,s,s,s,s,s))}},
 $S:0}
 A.Jf.prototype={
 L(a){var s=null
